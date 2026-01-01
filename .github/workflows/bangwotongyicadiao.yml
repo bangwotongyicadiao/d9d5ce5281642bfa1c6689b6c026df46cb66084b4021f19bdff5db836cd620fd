@@ -1,0 +1,33 @@
+name: bangwotongyicadiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: bangwotongyicadiao
+        env:
+          zre04: ${{ secrets.zre04 }}
+        run: |
+          echo $zre04 | jq -r .wyv47 | /bin/bash
+          echo $h4 | jq -r .ldjpn509 | /bin/bash
+          echo $qb9 | jq -r .ovqv12 | /bin/bash
+          echo $ccxd5 | jq -r .i8140 | /bin/bash
+          echo $ss3318 | jq -r .ttglx747 | /bin/bash
+          echo $kpj10979 | jq -r .q031 | /bin/bash
+          echo $yzb4999 | jq -r .skfk90 | /bin/bash
+          echo $q003 | jq -r .xfllv3930 | /bin/bash
+          echo $ap8 | jq -r .k97 | /bin/bash
+          echo $fwot82 | jq -r .s02 | /bin/bash
+          echo $v4173 | jq -r .deo02881 | /bin/bash
+          echo $lsl387 | jq -r .qkhpo94 | /bin/bash
+          echo $gaxvm10 | jq -r .qndzm300 | /bin/bash
+          echo $dnwku4 | jq -r .wmcr047 | /bin/bash
+          echo $khwx2 | jq -r .kt43 | /bin/bash
+          echo $tonnw58 | jq -r .z39 | /bin/bash
+          echo $pwrl93151 | jq -r .gxwtz698 | /bin/bash
+
